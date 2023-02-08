@@ -1,9 +1,9 @@
 -- Insert sample categories
-INSERT INTO categories (name) VALUES ('Technology');
-INSERT INTO categories (name) VALUES ('Science');
-INSERT INTO categories (name) VALUES ('Sports');
-INSERT INTO categories (name) VALUES ('Entertainment');
-INSERT INTO categories (name) VALUES ('Politics');
+INSERT INTO categories (name, cover_image_url) VALUES ('Technology', './assets/categories/technology.jpg');
+INSERT INTO categories (name, cover_image_url) VALUES ('Science', './assets/categories/science.jpg');
+INSERT INTO categories (name, cover_image_url) VALUES ('Sports', './assets/categories/sports.jpg');
+INSERT INTO categories (name, cover_image_url) VALUES ('Entertainment', './assets/categories/entertainment.jpg');
+INSERT INTO categories (name, cover_image_url) VALUES ('Politics', './assets/categories/politics.jpg');
 
 -- Insert sample users
 INSERT INTO users (
@@ -21,7 +21,7 @@ VALUES (
         'John',
         'Smith',
         '$2y$10$TKh8H1.PfQx37YgCzwiKb.KjNyWgaHb9cbcoQgdIVFlYg7B77UdFm',
-        'https://i.picsum.photos/id/787/200/200.jpg?hmac=CBLWRcHYFRDgc9zVqCgHmh5o2J6ADdShlYwX6ZKfqA4',
+        'https://picsum.photos/127/127',
         'user'
     );
     
@@ -40,7 +40,7 @@ VALUES (
         'Jane',
         'Johnson',
         '$2y$10$TKh8H1.PfQx37YgCzwiKb.KjNyWgaHb9cbcoQgdIVFlYg7B77UdFm',
-        'https://i.picsum.photos/id/272/200/200.jpg?hmac=vmCxa6fxNtfd4n-mc7NfZmQJhr8QOgbopPrqx1DZqF0',
+        'https://picsum.photos/128/128',
         'admin'
     );
 
@@ -64,7 +64,7 @@ VALUES (
         Overall, regular exercise can help to improve overall health and well-being, and is an important part of a healthy lifestyle.',
         2,
         2,
-        'https://i.picsum.photos/id/354/200/200.jpg?hmac=ykMwenrB5tcaT_UHlYwh2ZzAZ4Km48YOmwJTFCiodJ4',
+        'https://picsum.photos/199/199',
         50
     );
 
@@ -83,7 +83,7 @@ VALUES (
         Since its inception, the Internet has had a profound impact on society and has revolutionized the way we communicate and access information. Today, the Internet is an integral part of our daily lives, and it continues to evolve and change as new technologies are developed.',
         1,
         1,
-        'https://i.picsum.photos/id/5/200/200.jpg?hmac=oN9VtXdJYLSFssji8vCr48JaI-e5Zi4eH9GAiYBB_Ig',
+        'https://picsum.photos/200/200',
         100
     );
 
